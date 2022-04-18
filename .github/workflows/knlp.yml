@@ -13,8 +13,6 @@ jobs:
     # github 可用的运行环境
     #    windows-2019
     #    ubuntu-20.04
-    #    ubuntu-18.04
-    #    ubuntu-16.04
     #    macos-10.15
 
     # 每个job 由多个step组成
@@ -34,4 +32,7 @@ jobs:
     - name: Lint with flake8
       run: |
         flake8 . --count
-        # --count 打印错误总数  --exit-zero 即使有错误，也强制 Flake8 使用退出状态代码 0
+      # --count 打印错误总数
+    - name: run test_all
+        run: |
+          python test/test_all.py
