@@ -33,4 +33,5 @@ jobs:
         pip install flake8
     - name: Lint with flake8
       run: |
-        flake8 . --count --exit-zero
+        flake8 . --count
+        # --count 打印错误总数  --exit-zero 即使有错误，也强制 Flake8 使用退出状态代码 0
