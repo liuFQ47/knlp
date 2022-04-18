@@ -95,6 +95,5 @@ def test_all():
     test_file_evaluation()
     # test_check_file()   # 文件check，暂时先不上线
 
-
 if __name__ == '__main__':
     test_all()
