@@ -36,4 +36,4 @@ jobs:
 
     - name: run test_all
         run: |
-          python ../../test/test_all.py
+          ../../test/test_all.py
