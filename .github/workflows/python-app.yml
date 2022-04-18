@@ -1,9 +1,7 @@
 name: KNLP
 
 # on 表示触发CI的动作，可以为push、pull request
-on:
-  push:
-    branches: [ github_action ]
+on: [push]
 
 permissions:
   contents: read
