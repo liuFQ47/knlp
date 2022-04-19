@@ -35,5 +35,5 @@ jobs:
       # --count 打印错误总数
 
     - name: run test_all
-        run: |
-          ../../test/test_all.py
+      run: |
+        test/test_all.py
