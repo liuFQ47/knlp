@@ -36,4 +36,4 @@ jobs:
 
     - name: run test_all
       run: |
-        test/test_all.py
+        sudo python test/test_all.py
