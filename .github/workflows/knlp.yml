@@ -36,8 +36,8 @@ jobs:
       # --count 打印错误总数
 
     - name: setup
-        run: |
-          sudo python setup.py
+      run: |
+        sudo python setup.py
 
     - name: run test_all
       run: |
