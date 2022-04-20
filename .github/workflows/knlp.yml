@@ -35,9 +35,9 @@ jobs:
         flake8 . --count
       # --count 打印错误总数
 
-    - name: setup
+    - name: Setup
       run: |
-        sudo python setup.py
+        sudo python setup.py install
 
     - name: run test_all
       run: |
