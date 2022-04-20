@@ -3,7 +3,7 @@ attrs==20.3.0
 decorator==4.4.2
 executing==0.3.3
 heartrate==0.2.1
-importlib-metadata==3.4.0
+# importlib-metadata==3.4.0
 iniconfig==1.1.1
 jieba==0.42.1
 networkx==2.5
